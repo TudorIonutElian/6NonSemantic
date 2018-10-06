@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #000;
+    width: 100vw;
+    height: 100vh;
+}
+
+#container {
+    width: 70%;
+    height: 70%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/* ----- Container Header CSS Rules -----*/
+#container-header {
+    background-color: #FFB700;
+    height: 105px;
+    position: relative;
+    padding: 0;
+}
+#container-header h1 {
+    color: #FF8901;
+    font-size: 72px;
+    position: absolute;
+    bottom: -10px;
+    left: 20px;
+    margin: 0;
+}
+
+/* ----- Container Body CSS Rules -----*/
+#container-body {
+    height: 380px;
+    display: flex;
+    flex-direction: row;
+}
+#container-body .body-left {
+    width: 25%;
+    background-color: #FFCA50;
+    padding-left: 30px;
+}
+
+#container-body .body-left h2 {
+    color: #B65E00;
+    margin-top: 35px;
+    margin-bottom: 10px;
+}
+#container-body .body-left .body-left-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    list-style: none;
+    padding-left: 20px;
+}
+#container-body .body-left .body-left-links li {
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+#container-body .body-left .body-left-links li a {
+    text-decoration: none;
+}
+
+#container-body .body-left .imgcertification {
+    width: 110px;
+    padding-left: 15px;
+    margin-bottom: 5px;
+}
+#container-body .body-right {
+    width: 75%;
+    background-color: #FFE351;
+    padding: 0 30px;
+}
+
+#container-body .body-right h2 {
+    margin-top: 35px;
+    margin-bottom: 5px;
+    color: #B36100;
+}
+#container-body .body-right p {
+    text-align: justify;
+    margin-bottom: 10px;
+}
+#container-body .body-right a {
+    text-decoration: none;
+}
+
+
+/* ----- Container Footer CSS Rules -----*/
+#container-footer {
+    height: 40px;
+    background-color: #FBB903;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
